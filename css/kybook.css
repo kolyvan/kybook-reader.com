@@ -1,0 +1,39 @@
+body {
+  padding-top: 50px;
+}
+
+.wide {
+  width:100%;
+  height:150px;
+  /* background-image:url('/assets/bg_rust.png');
+  background-size:cover; */
+  background-image:url('/assets/px_by_Gre3g.png');  
+  background-size:auto;
+  background-repeat:repeat;
+  margin-bottom:50px;
+}
+
+.wide img {
+  width:100%;
+}
+
+.logo {
+  color:white;
+  font-size:2em;
+  padding:20px;
+  text-align:center;
+}
+
+.sublogo {
+  color:#CCC;
+  font-weight:normal;
+  font-size:1.2em;
+  text-align:center;
+}
+
+.line {
+  padding-top:20px;
+  white-space:no-wrap;
+  overflow:hidden;
+  text-align:center;
+}

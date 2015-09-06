@@ -1,0 +1,127 @@
+---
+layout: kybook
+title: KyBook Reader
+
+media:    
+  - mainscreen.png
+  - mybooks.png
+  - readbook.png
+  - readconf.png
+  - readdark.png
+  - audiobook.png
+  - comics.png
+
+---
+
+<div class="jumbotron">
+  <h1>The eBook Reader</h1>    
+  <a href="http://itunes.apple.com/app/id1018584176" class="lead">Available on the App Store</a> 
+  <span class="glyphicon glyphicon-apple" aria-hidden="true">  
+</div>
+
+<div class="alert alert-info" role="alert">
+    <strong>Pre-Release Beta is out!</strong> Just release a pre-release version for <a href='/beta.html'>public beta-testing</a>.
+</div>
+
+<div class="page-header">
+  
+  <div class="panel panel-default">  
+    <div class="panel-heading">
+    <h4 class="panel-title">The best way to read your books ever!</h4>
+    </div>
+    <div class="panel-body">
+    <p>KyBook supports all the major e-book formats, OPDS catalogs and Cloud Storage.</p> 
+    <p>Continuously developing and improving in close contact with thousands of KyBook users.</p> 
+    <p>New Feature: The Society. Share book reviews with other users of KyBook, find out how other readers evaluate your favorite book.</p>
+    </div>
+  </div>  
+
+  <div class="panel panel-default">  
+    <div class="panel-heading">
+    <h4 class="panel-title">Key features</h4>
+    </div>
+    <div class="panel-body">    
+    <p>EPUB, FB2, RTF, PDF, DJVU, CBR, CBZ, MP3, M4A, M4B formats</p>
+    <p>OPDS catalogs </p>
+    <p>Cloud Storage</p>
+    <p>Flexible reading mode settings</p>
+    <p>Handy cataloguer</p>
+    <p>Text-to-speech technology</p>
+    <p>Society (Book Club)</p>        
+    </div>
+  </div>  
+
+  <div class="panel panel-default">  
+    <div class="panel-heading">
+    <h4 class="panel-title">More</h4>
+    </div>
+    <div class="panel-body">
+    <p>Supports e-books in EPUB (DRM-free), FictionBook (fb2, fbz, fb2.zip), TXT, RTF, PDF, DJVU, Comic Book (cbr, cbz) and Audio Book (mp3, m4a, m4b) formats.</p>
+    <p>Provides access to enormous collection of free electronic books through OPDS-catalogs support.</p>
+    <p>Finds books in your Cloud Storage or anywhere in Internet.</p>
+    <p>Saves your books into iCloud and Dropbox, Yandex Disk.</p>
+    <p>Allows customize: font, colour theme, text size, text alignment mode, margins, paragraph indention, hyphenations and more.</p>    
+    <p>Provides easy navigation inside the book using table of content, bookmarks or notes.</p> 
+    <p>Helps organizing your books, cataloging them, grouping and sorting in different modes.</p>  
+    <p>Provides detailed information about each of your book.</p>
+    <p>Allows choosing book covers from different sources, changing titles and subjects and even more.</p>
+    <p>Uses text-to-speech technology to voice any e-book.</p>
+    <p>Supports translation of text.</p>
+    <p>Integrates with social networking services.</p>
+    <p>Supports of archives in ZIP and RAR format.</p>
+    </div>
+
+  </div>
+
+  <div class="col-lg-6 well">  
+    <p>Dear users, KyBook 2 is a further development of the project <a href="http://itunes.apple.com/app/id673027171">KyBook</a>.</p> 
+    <p>Major innovations: new engines for epub/fb2 ebook formats. Heavily modified engines for pdf/djvu.
+    A new way for cataloging books and cloud storage interaction. iCloud support for a storing e-books and a metadata synchronization.</p>  
+  </div>
+
+</div>
+
+<!-- 
+<div class="page-header">
+  <h1>News</h1>
+  <div class="col-lg-6">
+    <h4>Title</h4>
+    <p>Text</p>
+  </div>
+</div>
+-->
+
+<div class="page-header">  
+  <h1>Media</h1>      
+  <div class="container-fluid">    
+  <h4>Screenshots</h4>
+  <div class="row">            
+    {% for image in page.media %}                              
+      <div class="col-xs-6 col-md-3">
+      <a href="/assets/media/{{ image }}" target="_blank" class="thumbnail"> 
+        <img src="/assets/media/thumbs/{{ image }}">
+      </a>
+      </div>
+    {% endfor %}                
+  </div>
+  </div>  
+</div>
+
+<!--
+<h1 class="page-heading">Hello Kitty!</h1>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+    </li>
+  {% endfor %}
+</ul>
+
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+-->

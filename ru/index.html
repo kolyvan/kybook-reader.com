@@ -1,0 +1,128 @@
+---
+layout: kybook-ru
+title: KyBook Читалка
+
+media:    
+  - mainscreen.png
+  - mybooks.png
+  - readbook.png
+  - readconf.png
+  - readdark.png
+  - audiobook.png
+  - comics.png
+
+---
+
+<div class="jumbotron">
+  <h1>Читалка e-книг</h1>    
+  <a href="http://itunes.apple.com/app/id1018584176" class="lead">Доступно на App Store</a> 
+  <span class="glyphicon glyphicon-apple" aria-hidden="true">  
+</div>
+
+<div class="alert alert-info" role="alert">
+    <strong>Предварительная версия готова!</strong> Бета версия для <a href='/beta.html'>открытого бета теста</a>.
+</div>
+
+<div class="page-header">
+  
+  <div class="panel panel-default">  
+    <div class="panel-heading">
+    <h4 class="panel-title">Лучшая читалка для ваших книг!</h4>
+    </div>
+    <div class="panel-body">
+    <p>KyBook поддерживает все основные форматы электронных книг, ОPDS каталоги и облачные хранилища.</p> 
+    <p>Непрерывно развивается и улучшается в плотном контакте с многотысячной аудиторией KyBook.</p> 
+    <p>Новая функция: Книжный клуб. Поделись рецензией на книгу с другими пользователями KyBook, узнай как оценили твою любимую книгу другие читатели.</p>
+    </div>
+  </div>  
+
+  <div class="panel panel-default">  
+    <div class="panel-heading">
+    <h4 class="panel-title">Ключевые возможности</h4>
+    </div>
+    <div class="panel-body">    
+    <p>EPUB, FB2, RTF, PDF, DJVU, CBR, CBZ, MP3, M4A, M4B форматы</p>
+    <p>OPDS каталоги</p>
+    <p>Облачные хранилища</p>
+    <p>Гибкие настройки режима чтения</p>
+    <p>Удобный каталогизатор</p>
+    <p>Технология преобразования текста в речь</p>
+    <p>Книжный клуб</p>        
+    </div>
+  </div>  
+
+  <div class="panel panel-default">  
+    <div class="panel-heading">
+    <h4 class="panel-title">Кроме того</h4>
+    </div>
+    <div class="panel-body">
+    <p>Поддерживает электронные книги в формате EPUB (DRM-free), FictionBook (fb2, fbz, fb2.zip), RTF, TXT, PDF, DJVU, Comic Book (cbr, cbz) и Audio Book (mp3, m4a, m4b).</p>
+    <p>Предоставляет доступ к огромной коллекции электронных книг находящихся в свободном доступе через поддержку OPDS каталогов.</p>
+    <p>Найдет книги в облачных хранилищах или где угодно в Интернет.</p>
+    <p>Сохраняет ваши книги в <a href="http://icloud.com">iCloud</a> а также в <a href="http://dropbox.com">Dropbox</a> и <a href="http://disk.yandex.ru">Яндекс Диск</a>.</p>
+    <p>Позволяет гибко настраивать отображение текста: выбор шрифта, цветовой темы, масштаба текста, режима выравнивания текста, величины полей, абзацного отступа и переносов.</p>    
+    <p>Обеспечивает легкую навигацию по книге с помощью оглавления, закладок и заметок.</p> 
+    <p>Помогает организовать ваши книги, каталогизировать их, группировать и сортировать в различных режимах.</p>  
+    <p>Предоставляет подробную информацию по каждой Вашей книге.</p>
+    <p>Дает возможность выбрать обложку для книги из различных источников, изменить название и тему книги и много больше.</p>
+    <p>Использует технологию преобразования текста в речь для чтения вслух любой книги.</p>
+    <p>Поддерживает перевод текста.</p>
+    <p>Интегрирован с социальными сетями.</p>
+    <p>Интегрирован с <a href="http://litres.ru">ЛитРес</a>.</p>    
+    <p>Поддержка архивов в формате ZIP и RAR.</p>
+    </div>
+
+  </div>
+
+  <div class="col-lg-6 well">  
+    <p>Дорогие пользователи, KyBook 2 является дальнейшим развитием проекта <a href="http://itunes.apple.com/app/id673027171">KyBook</a>.</p> 
+    <p>Основные нововведения: новые движки для epub/fb2. Основательно измененные движки для pdf/djvu.
+    Новый способ каталогизации книг и работы с облачным хранилищами. Поддержка iCloud для хранения книг и синхронизации метаданных.</p>  
+  </div>
+
+</div>
+
+<!-- 
+<div class="page-header">
+  <h1>News</h1>
+  <div class="col-lg-6">
+    <h4>Title</h4>
+    <p>Text</p>
+  </div>
+</div>
+-->
+
+<div class="page-header">  
+  <h1>Media</h1>      
+  <div class="container-fluid">    
+  <h4>Screenshots</h4>
+  <div class="row">            
+    {% for image in page.media %}                              
+      <div class="col-xs-6 col-md-3">
+      <a href="/assets/media/{{ image }}" target="_blank" class="thumbnail"> 
+        <img src="/assets/media/thumbs/{{ image }}">
+      </a>
+      </div>
+    {% endfor %}                
+  </div>
+  </div>  
+</div>
+
+<!--
+<h1 class="page-heading">Hello Kitty!</h1>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+    </li>
+  {% endfor %}
+</ul>
+
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+-->
