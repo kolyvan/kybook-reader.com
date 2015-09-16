@@ -3,14 +3,17 @@ layout: kybook-ru
 title: KyBook Читалка
 
 media:    
-  - mainscreen.png
-  - mybooks.png
-  - readbook.png
-  - readconf.png
-  - readdark.png
-  - audiobook.png
-  - comics.png
-
+  - iphone_bookshelf.png  
+  - iphone_sidebar.png  
+  - iphone_book_day.png  
+  - iphone_book_dark.png
+  - iphone_book_conf.png  
+  - iphone_folder.png          
+  - iphone_folder_green.png    
+  - iphone_libraries.png  
+  - iphone_myfiles.png      
+  - iphone_mybooks.png
+  
 ---
 
 <div class="jumbotron">
@@ -90,8 +93,8 @@ media:
   <div class="row">            
     {% for image in page.media %}                              
       <div class="col-xs-6 col-md-3">
-      <a href="/assets/media/{{ image }}" target="_blank" class="thumbnail"> 
-        <img src="/assets/media/thumbs/{{ image }}">
+      <a href="/assets/media/ru/{{ image }}" target="_blank" class="thumbnail"> 
+        <img src="/assets/media/thumbs/ru/{{ image }}">
       </a>
       </div>
     {% endfor %}                
