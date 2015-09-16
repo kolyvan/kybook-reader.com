@@ -16,9 +16,8 @@ title: KyBook - Помощь
   <div class="col-lg-6">  
   
   {% for post in site.categories.faq %}  
-  {% if post.categories contains 'ru' %}
-    <h4>{{ post.title }}</h4>
-    <p> <a href="{{ post.url }}">{{ post.preview }}</a> </p>    
+  {% if post.categories contains 'ru' %}    
+    <p> <a href="{{ post.url }}">{{ post.title }}</a> </p>    
   {% endif %}    
   {% endfor %}
     
