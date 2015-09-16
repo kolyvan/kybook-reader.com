@@ -1,0 +1,268 @@
+
+/*
+ current theme color names
+ accent, text, backg, secondtext, secondbackg, selection
+ */
+
+body {
+    font-size: medium;
+}
+
+div {
+    display: block;
+}
+
+p {
+    display: block;
+    margin: 0.5em 0px;
+    text-indent: 2em;
+    text-align: inherit;
+}
+
+strong {
+    font-weight: bolder;
+}
+
+em {
+    font-style: italic;
+}
+
+sub {
+    font-size: smaller;
+    vertical-align: sub;
+}
+
+sup {
+    font-size: smaller;
+    vertical-align: super;
+}
+
+strike {
+    text-decoration: line-through;
+}
+
+blockquote {
+    display: block;
+    margin: 0.5em 20px;
+    font-style: italic;
+    font-size: 0.95em;
+    /* text-align: left; */
+    background-color: secondbackg;
+}
+
+h1 {
+    display: block;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.5em 0px;
+    background-color: secondbackg;
+}
+
+h2 {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.5em 0px;
+}
+
+h3 {
+    display: block;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.5em 0px;
+}
+
+h4 {
+    display: block;
+    font-size: 1.0em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.5em 0px;
+}
+
+h5 {
+    display: block;
+    font-size: .85em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.5em 0px;
+}
+
+h6 {
+    display: block;
+    font-size: .7em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.5em 0px;
+}
+
+.title p {
+
+    margin: 0px;
+    text-indent: 0px;
+    text-align: inherit;
+}
+
+table {
+    display: table;
+    margin: 0.5em 0px;
+    font-size: 0.75em;
+    font-family: monospace;
+    border-spacing: 1px;
+}
+
+tr {
+    display: table-row;
+}
+
+tr:nth-child(odd) {
+    background-color: secondbackg;
+}
+
+td {
+    display: table-cell;
+}
+
+th {
+    display: table-cell;
+    font-weight: bold;
+    text-align: center;    
+}
+
+td {
+    display: table-cell;
+}
+
+img {
+    display: block;
+    text-align: center;
+    text-indent: 0px;
+    margin: 0px;
+}
+
+img.inline {
+    text-align: inherit;
+    display: inline;
+}
+
+a {
+    color: accent;
+    text-decoration: underline;
+}
+
+a.note {
+    font-size: 1.1em;
+    color: text;
+    background-color: accent;
+    text-decoration: none;
+}
+
+code {
+    font-size: 0.8em;
+    font-family: monospace;
+    white-space: pre;
+    text-align: left;
+}
+
+.annotation {
+    font-size: 0.8em;
+    margin: 0.5em 0px;
+}
+
+.epigraph {
+    font-size: 0.9em;
+    font-style: italic;
+    margin: 1em;
+    text-align: right;
+}
+
+.poem {
+    margin: 0.5em 0px;
+}
+
+.stanza {
+    margin: 0.5em 0px;
+}
+
+.v {
+    margin: 0px 1em;
+}
+
+.subtitle {
+    text-align: center;
+    margin: 1em 0px;
+}
+
+.emptyline {
+    margin: 0px;
+    height: 1em;
+}
+
+.titlepage {
+}
+
+.section {
+}
+
+.content {
+}
+
+/*
+.content::first-letter {
+    font-weight: bold;
+    font-size: 110%;
+}
+*/
+
+.date {
+}
+
+.author {
+    text-align: left;
+}
+
+.titlepage img {
+    margin: 1em 0px 2em 0px;
+}
+
+.bookname {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.5em 0px;
+}
+
+.sequence {
+    
+    font-size: 1em;
+    text-align: center;
+    margin: 0.5em 0px;
+}
+
+.bookauthor {
+    
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0.5em 0px;
+}
+
+.publisher {
+    
+    font-size: 1.0em;
+    text-align: center;
+    margin: 0.5em 1px;
+}
+
+body.note {
+    font-size: 0.9em;
+}
+
+body.note p {
+    
+    margin: 0px;
+    text-indent: 0px;
+    text-align: inherit;
+}
