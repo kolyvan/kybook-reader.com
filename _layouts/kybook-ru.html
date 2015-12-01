@@ -56,16 +56,16 @@
           <li ><a href="/ru/help.html">Помощь</a></li>
           {% endif %}
 
-          {% if page.url == '/forum.html' %}
+          {% if page.url == '/ru/forum.html' %}
           <li class="active"><a href="/ru/forum.html">Форум</a></li>
           {% else %}
           <li ><a href="/ru/forum.html">Форум</a></li>
           {% endif %}
 
-          {% if page.url == '/beta.html' %}
-          <li class="active"><a href="/beta.html">Бета</a></li>
+          {% if page.url == '/ru/beta.html' %}
+          <li class="active"><a href="/ru/beta.html">Бета</a></li>
           {% else %}
-          <li ><a href="/beta.html">Бета</a></li>
+          <li ><a href="/ru/beta.html">Бета</a></li>
           {% endif %}
 
           </ul>
@@ -78,7 +78,9 @@
           {% elsif page.url == '/ru/help.html' %}
           <li ><a href="/help.html">English</a></li>
           {% elsif page.url == '/ru/forum.html' %}         
-          <li ><a href="/forum.html">English</a></li>              
+          <li ><a href="/forum.html">English</a></li>
+          {% elsif page.url == '/ru/beta.html' %}         
+          <li ><a href="/beta.html">English</a></li>              
           {% endif %} 
           </ul>
 
