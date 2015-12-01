@@ -1,0 +1,45 @@
+---
+layout: kybook_news
+title: Beta v0.7.8
+media:    
+  - 2015-12-01-navpanel-1.png  
+  - 2015-12-01-navpanel-2.png  
+  - 2015-12-01-search-1.png  
+  - 2015-12-01-search-2.png  
+---
+
+<p class="text-success">Version 0.7.8 is available for public beta-testing.</p>
+
+<div class="page-header"> 
+<h4>What's new</h4>
+<ul>
+	<li>Added Speed Reading feature.</li>
+  <li>Added an option to disable the idle timer when reading.</li>
+  <li>Added the manual synchronization of opened book.</li>
+  <li>Fixed an issue with speech synthesis in the background.</li>
+  <li>Fixed an issue with txt books and settings.</li>
+  <li>Removed support for importing metadata from the first edition.</li>
+</ul>
+</div>
+
+<p><a href="/beta.html">Sign up for the beta test</a></p>
+
+<div class="page-header">    
+<h4>Screenshots</h4>
+  <div class="container-fluid">      
+  <div class="row">            
+    {% for image in page.media %}                              
+      <div class="col-xs-6 col-md-3">
+      <a href="/assets/news/ru/{{ image }}" target="_blank" class="thumbnail"> 
+        <img src="/assets/news/thumbs/ru/{{ image }}">
+      </a>
+      </div>
+    {% endfor %}                
+  </div>
+  </div>  
+</div>
+
+<div>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/w3ZqlE7VjOY" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/E5aPEvXdDSI" frameborder="0" allowfullscreen></iframe>
+</div>
