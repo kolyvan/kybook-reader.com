@@ -44,6 +44,12 @@
           <li ><a href="/ru/index.html">Главная</a></li>
           {% endif %}
 
+          {% if page.url == '/ru/news.html' %}
+          <li class="active"><a href="/ru/news.html">Новости</a></li>
+          {% else %}
+          <li ><a href="/ru/news.html">Новости</a></li>
+          {% endif %}
+
           {% if page.url == '/ru/help.html' %}
           <li class="active"><a href="/ru/help.html">Помощь</a></li>
           {% else %}

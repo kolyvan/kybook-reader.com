@@ -43,6 +43,12 @@
           <li ><a href="/index.html">Home</a></li>
           {% endif %}
 
+          {% if page.url == '/news.html' %}
+          <li class="active"><a href="/news.html">News</a></li>
+          {% else %}
+          <li ><a href="/news.html">News</a></li>
+          {% endif %}
+
           {% if page.url == '/help.html' %}
           <li class="active"><a href="/help.html">Help</a></li>
           {% else %}
