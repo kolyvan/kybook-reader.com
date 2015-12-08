@@ -1,0 +1,47 @@
+---
+layout: kybook_news-ru
+title: Выпуск v0.7.8
+media:    
+  - 2015-12-01-navpanel-1.png  
+  - 2015-12-01-navpanel-2.png  
+  - 2015-12-01-search-1.png  
+  - 2015-12-01-search-2.png  
+---
+
+<p class="text-success">Версия 0.7.8 доступна в AppStore.</p>
+
+<div class="page-header"> 
+<h4>Что нового</h4>
+<ul>
+	<li>Добавлена поддержка форматов MobiPocket (mobi) и Kindle (azw3).</li>
+	<li>Добавлена панель инструментов для заметок в книге.</li>
+	<li>Добавлена панель навигации по результатам поиска.</li>
+	<li>Доделан нечеткий поиск и поиск с помощью регулярных выражений в книге.</li>
+	<li>Добавлена поддержка для PDF документов защищенных паролем.</li>
+	<li>Добавлена поддержка для комиксов в формате cbr защищенных паролем.</li>
+	<li>Добавлена возможность указать кодировку текста для книг в формате txt.</li>
+	<li>Добавлен возможность указать MobiPocket PID / Kindle serial number для книг в форматах mobi/azw3.</li>
+	<li>Исправлена проблема с редактированием метаданных в книжной карточке в открытой книге.</li>
+	<li>Исправлена проблема с показом найденной фразы при поиске в книге.</li>
+</ul>
+</div>
+
+<div class="page-header">    
+<h4>Снимки экрана</h4>
+  <div class="container-fluid">      
+  <div class="row">            
+    {% for image in page.media %}                              
+      <div class="col-xs-6 col-md-3">
+      <a href="/assets/news/ru/{{ image }}" target="_blank" class="thumbnail"> 
+        <img src="/assets/news/thumbs/ru/{{ image }}">
+      </a>
+      </div>
+    {% endfor %}                
+  </div>
+  </div>  
+</div>
+
+<div>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/w3ZqlE7VjOY" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/E5aPEvXdDSI" frameborder="0" allowfullscreen></iframe>
+</div>
