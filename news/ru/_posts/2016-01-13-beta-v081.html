@@ -1,0 +1,40 @@
+---
+layout: kybook_news-ru
+title: Бета v0.8.1 (сборка 812)
+media:    
+  - 2016-01-13-autoscroll-1.png
+  - 2016-01-13-autoscroll-2.png 
+---
+
+<p class="text-success">Версия 0.8.1 (812) готова для открытого бета теста.</p>
+
+<h4>Что нового.</h4>
+<ul>
+	<li>Добавлены новые темы: Песок,Танго.</li>
+  <li>Добавлена возможность одновременного редактирования метаданных нескольких книг.</li>
+  <li>Исправлена проблема с неудаляемой записью о серии книги из метаданных.</li>
+  <li>Улучшено редактирование серии в карточки книги.</li>
+  <li>Исправлена ошибка с невозможностью подключения Самба сервера без указания точки подключения.</li>
+  <li>Добавлена авто-прокрутка для форматов epub/fb2/mobi.</li>
+</ul>
+
+<p><a href="/ru/beta.html">Записаться на бета тест</a></p>
+
+<div class="page-header">    
+<h4>Снимки экрана</h4>
+  <div class="container-fluid">      
+  <div class="row">            
+    {% for image in page.media %}                              
+      <div class="col-xs-6 col-md-3">
+      <a href="/assets/news/ru/{{ image }}" target="_blank" class="thumbnail"> 
+        <img src="/assets/news/thumbs/ru/{{ image }}">
+      </a>
+      </div>
+    {% endfor %}                
+  </div>
+  </div>  
+</div>
+
+<div>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/xcZDhnOaFkU" frameborder="0" allowfullscreen></iframe>
+</div>
