@@ -1,3 +1,0 @@
-*.kb filter=lfs diff=lfs merge=lfs -text
-*.fb2 filter=lfs diff=lfs merge=lfs -text
-*.epub filter=lfs diff=lfs merge=lfs -text
