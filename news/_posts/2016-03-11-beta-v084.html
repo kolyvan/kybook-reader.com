@@ -1,12 +1,16 @@
 ---
 layout: kybook_news
-title: Beta v0.8.4 (build 843)
+title: Beta v0.8.4 (build 844)
+media:
+  - 2016-03-17-thumbnails-ipad.png
+  - 2016-03-17-thumbnails-iphone.png
 ---
 
-<p class="text-success">Version 0.8.4 (843) is available for public beta-testing.</p>
+<p class="text-success">Version 0.8.4 (844) is available for public beta-testing.</p>
 
 <h4>What's new</h4>
 
+<h5>build 843</h5>
 <ul>
   <li>Added an ability to view an extra stuff in a book (footnotes, etc).</li>
   <li>Added a limited support for embedded audio in epub.</li>
@@ -23,4 +27,31 @@ title: Beta v0.8.4 (build 843)
   <li>Fixed various minor bugs.</li>
 </ul>
 
+<h5>build 844</h5>
+<ul>
+  <li>The support of SMB/CIFS protocol was removed.</li>
+  <li>Added an ability to disable the pinch gesture which used to scale a text in ePub, MOBI, FB2.</li>
+  <li>Added an auto deletion of files remaining after failed installation of Linvo DSL vocabulary.</li>
+  <li>Changed a design of searching of covers on the web.</li>
+  <li>Added preview of thumbnails for PDF, DJVU, and comics.</li>
+  <li>Removed an ability to resetting of the database through the device settings.</li>
+  <li>Enabled a function for setting of a proxy server for OPDS catalogs.</li>
+  <li>Added an ability to delete multiple records in Books.</li>
+</ul>
+
 <p><a href="/beta.html">Sign up for the beta test</a></p>
+
+<div class="page-header">
+<h4>Screenshots</h4>
+  <div class="container-fluid">
+  <div class="row">
+    {% for image in page.media %}
+      <div class="col-xs-6 col-md-3">
+      <a href="/assets/news/ru/{{ image }}" target="_blank" class="thumbnail">
+        <img src="/assets/news/thumbs/ru/{{ image }}">
+      </a>
+      </div>
+    {% endfor %}
+  </div>
+  </div>
+</div>
