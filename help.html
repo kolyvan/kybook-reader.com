@@ -5,22 +5,23 @@ title: KyBook - Help
 
 <div class="jumbotron">
   <h1>Help</h1>
-  <p class="lead">Please read FAQ before report about a problem</p> 
-  <p><a href="mailto:support@kybook-reader.com" class="btn btn-primary btn-lg" role="button"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Contact support</a></p>    
+  <p class="lead">Please read FAQ before report about a problem</p>
+  <p><a href="mailto:%73%&#55;&#53;p&#112;o&#114;%74&#37;40%6&#66;%79b&#37;&#54;Fok%2&#68reader%2Ecom" class="btn btn-primary btn-lg" role="button"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Contact support</a></p>
 </div>
+
 
 <div class="page-header">
 
   <h3>FAQ</h3>
 
-  <div class="col-lg-6">  
-  
-  {% for post in site.categories.faq %}  
+  <div class="col-lg-6">
+
+  {% for post in site.categories.faq %}
   {% if post.categories contains 'en' %}
-      <p> <a href="{{ post.url }}">{{ post.title }}</a> </p>    
-  {% endif %}        
+      <p> <a href="{{ post.url }}">{{ post.title }}</a> </p>
+  {% endif %}
   {% endfor %}
-    
+
   </div>
 
 </div>
