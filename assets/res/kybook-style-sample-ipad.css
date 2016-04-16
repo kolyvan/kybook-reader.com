@@ -4,7 +4,12 @@
  accent, text, backg, secondtext, secondbackg, selection
  */
 
+html, footer, header {
+    display: block;
+}
+
 body {
+    display: block;
     font-size: medium;
 }
 
@@ -17,6 +22,24 @@ p {
     margin: 0.2em 0px;
     text-indent: 1em;
     text-align: inherit;
+}
+
+li {
+	display: list-item;
+}
+
+ul {
+	display: block;
+	list-style-type: disc;
+	margin: 0.2em 0px;
+	padding-left: 20px;
+}
+
+ol {
+	display: block;
+	list-style-type: decimal;
+	margin: 0.2em 0em;
+    padding-left: 20px;
 }
 
 strong {
@@ -41,6 +64,10 @@ strike {
     text-decoration: line-through;
 }
 
+u {
+	text-decoration: underline;
+}
+
 blockquote {
     display: block;
     font-size: 0.9em;
@@ -49,12 +76,24 @@ blockquote {
     border-left: 5px solid selection;
 }
 
+header p {
+    margin: 0px;
+    text-indent: 0px;
+    text-align: inherit;
+}
+
+footer p {
+    margin: 0px;
+    text-indent: 0px;
+    text-align: inherit;
+}
+
 h1 {
     display: block;
     font-size: 1.4em;
     font-weight: bold;
     text-align: center;
-    margin: 1em 0px 0.5em 0px;
+    margin: 1.5em 0px 1em 0px;
 }
 
 h2 {
@@ -62,7 +101,7 @@ h2 {
     font-size: 1.2em;
     font-weight: bold;
     text-align: center;
-    margin: 1em 0px 0.5em 0px;
+    margin: 1.5em 0px 1em 0px;
 }
 
 h3 {
@@ -70,7 +109,7 @@ h3 {
     font-size: 1.1em;
     font-weight: bold;
     text-align: center;
-    margin: 1em 0px 0.5em 0px;
+    margin: 1.5em 0px 1em 0px;
 }
 
 h4 {
@@ -78,7 +117,7 @@ h4 {
     font-size: 1.0em;
     font-weight: bold;
     text-align: center;
-    margin: 1em 0px 0.5em 0px;
+    margin: 1.5em 0px 1em 0px;
 }
 
 h5 {
@@ -86,7 +125,7 @@ h5 {
     font-size: .85em;
     font-weight: bold;
     text-align: center;
-    margin: 0.5em 0px;
+    margin: 1em 0px;
 }
 
 h6 {
@@ -94,20 +133,13 @@ h6 {
     font-size: .7em;
     font-weight: bold;
     text-align: center;
-    margin: 0.5em 0px;
-}
-
-.title p {
-
-    margin: 0px;
-    text-indent: 0px;
-    text-align: inherit;
+    margin: 1em 0px;
 }
 
 table {
     display: table;
-    margin: 0.5em 0px;
-    font-size: 0.75em;
+    margin: 1em 0px;
+    font-size: 0.8em;
     font-family: monospace;
     border-spacing: 1px;
 }
@@ -135,15 +167,20 @@ td {
 }
 
 img {
+    text-align: inherit;
+    display: inline;
+}
+
+img.center {
     display: block;
     text-align: center;
     text-indent: 0px;
-    margin: 0px;
+    margin: 1em;
 }
 
-img.inline {
-    text-align: inherit;
-    display: inline;
+audio {
+    display: block;
+    margin: 1em;
 }
 
 a {
@@ -164,12 +201,7 @@ code {
     text-align: left;
 }
 
-.annotation {
-    font-size: 0.8em;
-    margin: 0.5em 0px;
-}
-
-.epigraph {
+header blockquote {
     font-size: 0.9em;
     font-style: italic;
     margin: 1em;
@@ -177,20 +209,20 @@ code {
 }
 
 .poem {
-    margin: 0.5em 0px;
+    margin: 1em 0px;
 }
 
 .stanza {
-    margin: 0.5em 0px;
-}
-
-.v {
-    margin: 0px 1em;
-}
-
-.subtitle {
-    text-align: center;
     margin: 1em 0px;
+}
+
+.stanza p {
+    margin: 0px 4em;
+    text-indent: 0px;
+}
+
+.poemrow {
+    margin: 0px 1em;
 }
 
 .emptyline {
@@ -198,68 +230,73 @@ code {
     height: 1em;
 }
 
-.titlepage {
+.center {
+    text-align: center;
 }
 
-.section {
+.annotation {
+    font-size: 0.9em;
+    margin: 1em 0px;
 }
 
-.content {
+.epigraph {
+    font-size: 0.9em;
+    font-style: italic;
+    margin: 2em;
+    text-align: right;
 }
 
-/*
-.content::first-letter {
-    font-weight: bold;
-    font-size: 110%;
-}
-*/
-
-.date {
-}
-
-.author {
-    text-align: left;
+.epigraph .author {
+    font-style: normal;
 }
 
 .titlepage img {
-    margin: 1em 0px 2em 0px;
+    margin: 2em 0px 2em 0px;
 }
 
-.bookname {
+.titlepage .bookname {
     font-size: 1.5em;
     font-weight: bold;
     text-align: center;
-    margin: 0.5em 0px;
+    margin: 1em 0px;
 }
 
-.sequence {
-    
+.titlepage .sequence {
+
     font-size: 1em;
     text-align: center;
-    margin: 0.5em 0px;
+    margin: 1em 0px;
 }
 
-.bookauthor {
-    
+.titlepage .author {
+
     font-size: 1.2em;
     text-align: center;
-    margin: 0.5em 0px;
+    margin: 1em 0px;
 }
 
-.publisher {
-    
+.titlepage .publisher {
+
     font-size: 1.0em;
     text-align: center;
-    margin: 0.5em 1px;
+    margin: 1em 1px;
 }
 
-body.note {
+body.notes {
     font-size: 0.9em;
 }
 
-body.note p {
-    
+body.notes header {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+body.notes p {
     margin: 0px;
     text-indent: 0px;
     text-align: inherit;
+}
+
+body.notes blockquote {
+    margin: 0.2em 5px;
 }
