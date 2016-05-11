@@ -1,0 +1,34 @@
+---
+layout: kybook_news
+title: Beta v0.9.0 (build 900)
+media:
+  - 2016-05-11-opds-reviews.png
+---
+
+<p class="text-success">Version 0.9.0 is available for public beta-testing.</p>
+
+<h4>What's new</h4>
+
+<h5>Build 900</h5>
+<ul>
+  <li>Added an ability to see reviews for some OPDS catalogs.</li>
+  <li>Fixed an issue with the proper error reporting after failing to post a message on VK.com.
+</li>
+</ul>
+
+<p><a href="/beta.html">Sign up for the beta test</a></p>
+
+<div class="page-header">
+<h4>Screenshots</h4>
+  <div class="container-fluid">
+  <div class="row">
+    {% for image in page.media %}
+      <div class="col-xs-6 col-md-3">
+      <a href="/assets/news/ru/{{ image }}" target="_blank" class="thumbnail">
+        <img src="/assets/news/thumbs/ru/{{ image }}">
+      </a>
+      </div>
+    {% endfor %}
+  </div>
+  </div>
+</div>

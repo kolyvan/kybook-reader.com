@@ -1,0 +1,33 @@
+---
+layout: kybook_news-ru
+title: Бета v0.9.0 (сборка 900)
+media:
+  - 2016-05-11-opds-reviews.png
+---
+
+<p class="text-success">Версия 0.9.0 готова для открытого бета теста.</p>
+
+<h4>Что нового.</h4>
+
+<h5>Сборка 900</h5>
+<ul>
+  <li>Добавлен показ отзывов для некоторых OPDS каталогов.</li>
+  <li>Исправлена проблема с показом отчета об ошибке после неудачной попытки отправить сообщение в vk.com.</li>
+</ul>
+
+<p><a href="/ru/beta.html">Записаться на бета тест</a></p>
+
+<div class="page-header">
+<h4>Снимки экрана</h4>
+  <div class="container-fluid">
+  <div class="row">
+    {% for image in page.media %}
+      <div class="col-xs-6 col-md-3">
+      <a href="/assets/news/ru/{{ image }}" target="_blank" class="thumbnail">
+        <img src="/assets/news/thumbs/ru/{{ image }}">
+      </a>
+      </div>
+    {% endfor %}
+  </div>
+  </div>
+</div>
