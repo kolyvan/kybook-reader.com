@@ -4,9 +4,16 @@ layout: kybook
 
 <h2>{{ page.title }}</h2>
 <p class="text-muted">{{ page.date | date_to_string }}</p>
+
 <div>
 {{ content }}
 </div>
+
+
+<!-- https://tech.yandex.ru/share/ -->
+<script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8" async="async"></script>
+<div class="ya-share2" data-services="vkontakte,facebook,gplus,twitter,digg,reddit,linkedin,lj" data-size="s" data-counter data-lang="en"></div>
+
 
 <script type="text/javascript" charset="utf-8">
   var disqus_url = "http://kybook-reader.com{{page.url}}";
@@ -21,4 +28,3 @@ layout: kybook
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-
