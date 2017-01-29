@@ -10,27 +10,29 @@ title: KyBook - Help
 </div>
 
 <div class="page-header">
-
   <h3>FAQ</h3>
+</div>
 
-  <div class="col-lg-6">
+<div class="row">
+<div class="col-lg-6">
 
   {% for post in site.categories.faq %}
   {% unless post.categories contains 'ru' %}
       <p> <a href="{{ post.url }}">{{ post.title }}</a> </p>
-  {% endunless %} 
+  {% endunless %}
   {% endfor %}
 
-  </div>
-
+</div>
 </div>
 
-
+<br />
 <!-- https://tech.yandex.ru/share/ -->
 <script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8" async="async"></script>
 <div class="ya-share2" data-services="vkontakte,facebook,gplus,twitter,digg,reddit,linkedin,lj" data-size="s" data-counter data-lang="en"></div>
 
+<div class="page-header">
 <h3>Report a problem</h3>
+</div>
 
 <script type="text/javascript" charset="utf-8">
   var disqus_url = "http://kybook-reader.com{{page.url}}";
