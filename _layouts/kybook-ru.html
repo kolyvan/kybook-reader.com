@@ -65,16 +65,18 @@
           {% else %}
           <li ><a href="/ru/forum.html">Форум</a></li>
           {% endif %}
-
-          {% comment %}
-          <!--
+          
           {% if page.url == '/ru/beta.html' %}
           <li class="active"><a href="/ru/beta.html">Бета</a></li>
           {% else %}
           <li ><a href="/ru/beta.html">Бета</a></li>
           {% endif %}
-          -->
-          {% endcomment %}
+
+          {% if page.url == '/ru/kybook3.html' %}
+          <li class="active"><a href="/ru/kybook3.html">KyBook 3</a></li>
+          {% else %}
+          <li ><a href="/ru/kybook3.html">KyBook 3</a></li>
+          {% endif %}
 
           </ul>
 
@@ -89,6 +91,8 @@
           <li ><a href="/forum.html">English</a></li>
           {% elsif page.url == '/ru/beta.html' %}
           <li ><a href="/beta.html">English</a></li>
+          {% elsif page.url == '/ru/kybook3.html' %}
+          <li ><a href="/kybook3.html">English</a></li>
           {% endif %}
           </ul>
 
@@ -108,6 +112,7 @@
 
   <div class="container theme-showcase" role="main">
 
+<!--
 <div class="panel panel-default">
 <div class="panel-heading">
 <h2 class="panel-title"><a href="http://kolyvan.com/bilibre/ru/">BiLibre Читалка для DjVu и PDF</a></h2>
@@ -117,6 +122,13 @@
 <p><a class="btn btn-lg btn-info" href="https://itunes.apple.com/ru/app/bilibre-reader-for-djvu-and-pdf/id1230039040" role="button">Доступно на App Store</a></p>
 </div>
 </div>
+-->
+
+{% if page.url != '/ru/kybook3.html' and page.url != '/ru/beta.html' and page.url != '/firefatal.html' %}
+  <h3 class="alert alert-info" role="alert">  
+  <a href="/ru/kybook3.html">KyBook 3 Объявление >></a>
+  </h3>
+{% endif %}
 
 {{ content }}
 

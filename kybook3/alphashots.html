@@ -1,0 +1,55 @@
+---
+layout: kybook
+title: KyBook 3 Screenshots
+
+media:
+  - 1-start.png
+  - 2-bookshelf.png
+  - 3-bookshelf.png
+  - 4-reader.png
+  - 5-reader.png
+  - 6-reader.png
+  - 7-reader.png
+  - 8-reader.png
+  - 9-reader.png
+  - 11-reader.png
+  - 10-reader.png
+  - 20-iphonex.png
+
+medialandscape:
+  - 30-landscape.png
+  - 31-landscape.png
+  - 32-landscape.png
+
+
+---
+
+<div class="page-header">
+
+<div class="container-fluid">
+<h2>KyBook 3 Screenshots</h2>
+<div class="row">
+{% for image in page.media %}
+    <div class="col-xs-6 col-md-3">
+    <a href="/assets/kybook3/{{ image }}" target="_blank" class="thumbnail">
+              <img src="/assets/kybook3/thumbs/{{ image }}">
+    </a>
+    </div>
+{% endfor %}
+</div>
+</div>
+
+<div class="container-fluid">
+<h2>KyBook 3 Landscape Screenshots</h2>
+<div class="row">
+{% for image in page.medialandscape %}
+    <div class="col-xs-6 col-md-3">
+    <a href="/assets/kybook3/{{ image }}" target="_blank" class="thumbnail">
+              <img src="/assets/kybook3/thumbs/{{ image }}">
+    </a>
+    </div>
+{% endfor %}
+</div>
+</div>
+
+</div>

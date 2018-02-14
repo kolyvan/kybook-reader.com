@@ -64,17 +64,19 @@
           {% else %}
           <li ><a href="/forum.html">Forum</a></li>
           {% endif %}
-
-          {% comment %}
-          <!--
+         
           {% if page.url == '/beta.html' %}
           <li class="active"><a href="/beta.html">Beta</a></li>
           {% else %}
           <li ><a href="/beta.html">Beta</a></li>
           {% endif %}
-          -->
-          {% endcomment %}
 
+          {% if page.url == '/kybook3.html' %}
+          <li class="active"><a href="/kybook3.html">KyBook 3</a></li>
+          {% else %}
+          <li ><a href="/kybook3.html">KyBook 3</a></li>
+          {% endif %}
+          
           </ul>
 
           <ul class="nav pull-right">
@@ -88,6 +90,8 @@
           <li ><a href="/ru/forum.html">Русский</a></li>
           {% elsif page.url == '/beta.html' %}
           <li ><a href="/ru/beta.html">Русский</a></li>
+          {% elsif page.url == '/kybook3.html' %}
+          <li ><a href="/ru/kybook3.html">Русский</a></li>          
           {% endif %}
           </ul>
 
@@ -107,6 +111,7 @@
 
   <div class="container theme-showcase" role="main">
 
+<!--
 <div class="panel panel-default">
 <div class="panel-heading">
 <h2 class="panel-title"><a href="http://kolyvan.com/bilibre/">BiLibre DjVu and PDF Reader</a></h2>
@@ -116,6 +121,13 @@
 <p><a href="http://itunes.apple.com/app/id1230039040" class="btn btn-lg btn-info">Available on the App Store</a></p>
 </div>
 </div>
+-->
+
+{% if page.url != '/kybook3.html' and page.url != '/beta.html' %}
+  <h3 class="alert alert-info" role="alert">  
+  <a href="/kybook3.html">KyBook 3 Announcement >></a>
+  </h3>
+{% endif %}
 
 {{ content }}
 
