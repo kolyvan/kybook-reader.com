@@ -4,97 +4,96 @@ title: KyBook 3
 permalink: /kybook3.html
 ---
 
-## Третий KyBook.
+## KyBook 3.
 
-### _Ключевые инновации_.
+### _A major innovations_.
 
-#### Новый движок для FB2/EPUB/MOBI книг. 
-- Быстрый, энергоэфективный, оптимизирован для работы с очень большими книгами (книги в миллионы слов).
-- Новая типографика (висячая пунктуация, фигурные блоки, предотвращение вдовьих/сиротских строк и излишней разрядки). 
+#### A completely new engine for FB2/EPUB/MOBI books. 
+- Fast, energy efficient, optimized for very large books (books in millions of words).
+- New typography (hanging punctuation, figured blocks, prevention of widows / orphans and a redundant char spacing). 
 
-#### Новый книжный каталогизатор. 
-- Возвращена модель организации книжных полок из первого KyBook (книжная полка это папка на устройстве/облаке). 
-- Использование каталогизатора опционально.
+#### New books cataloger. 
+- Returned back the model of organization of bookshelves from the first KyBook(a bookshelf is the folder on the device or Cloud Storage). 
+- Using of the cataloguer is optional now.
 
-#### Мультитабный интерфейс (опционально, про версия). 
-- Возможность открыть несколько книг, полок в разных вкладках и свободно переключаться между ними.
-- Режим работы с двумя книгами/книжными полками одновременно на экране. 
-- Возможность открыть книгу одновременно на двух разных позициях чтения на одном экране.  
+#### Multi-tab interface (optional, pro). 
+- The ability to open several books and bookshelfs in different tabs and freely switch between them (like in Safari).
+- The way to work with two books or bookshelfs at the same time on the screen. 
+- The ability to open the book at the same time in two different reading positions on one screen.  
 
-#### Новый движок для работы с облачными хранилищами.
-- Оптимизирован под работу с файлами-книг.
-- Прозрачное кэширование.
-- Возможность вручную, в одно нажатие, сохранить/удалить копию облачной книги на устройстве для последующей работы в оффлайн.
+#### A new engine for working with Cloud Storage.
+- Optimized for work with file-books.
+- Transparent Caching.
+- Possibility to manually, one-touch, download a copy of a book from Cloud Storage on the device for later using in offline mode.
 
-#### Новый интерфейс для читалки книг с новыми возможностями.
-- Редактирование и автоматическое создание оглавления.
+#### New interface for book reading with new cool features.
+- As example: editing and automatic creation of the table of contents.
 
-#### Поддержка Apple iOS функций.
+#### Full support for recent Apple iOS functions.
 - iPhone X.
-- iPad Split Screen Multitasking (многозадачность).
-- Apple Pencil для всех форматов книг (можно добавлять рисунки-аннотации в EPUB, FB2, DjVu, PDF, комиксы). 
-- iOS 11 drag & drop в книжных полках.
+- iPad Split Screen Multitasking.
+- Apple Pencil for all ebook formats (drawing annotations in EPUB, FB2, DjVu, PDF, Comics). 
+- iOS 11 drag & drop in bookshelfs for reordering or moving or metadata editing.
 
-### Требования.
+### Requirements.
 - iOS 11
 - arm64
 
-### В альфа версии не реализовано следующее:
+### Public beta-test KyBook 3 (alpha). 
 
-- Множество функций или не реализовано или не доступно для тестирования пользователем.
-- Совсем и полностью не проработан дизайн.
-- Нет базового режима, только Safari подобный режим с вкладками (будущий Про).
-- Нет поддержки PDF, аудиокниг. 
-- Ограниченная поддержка комиксов.
-- Из облачных каталогов пока поддерживается только Yandex Disk (планируется добавить iCloud, Dropbox, Google Drive, OneDisk, WebDav, Samba).
-- Нет синхронизации.
-- Нет поиска по каталогизатору и в Интернет.
-- Нет поддержки внешних книжных сервисов.
-- Нет OPDS каталогов и Tor.
-- Нет текста-в-речь, автопрокрутки, скорочтения, переводчика, словарей, Cамиздата, конспектов.
-- Нет раздела для работы с заметками и конспектами.
-- Нет интерфейса пользователя для добавление пользовательских шрифтов, фонов и стилей (сама возможность уже есть но интерфейса к ней пока нет).
+[Join the test group](/beta.html) 
 
-### Открытое тестирование альфа версии KyBook 3. 
+### A list of features has not implemented yet in the alpha version:
 
-[Подать заявку для участия](/beta.html) 
+- Please keep in mind that lots of features or is not implemented or is not available for user testing.
+- The design of the application is not finished at all.
+- No base interface mode, only Safari-like mode with tabs (future Pro).
+- No support for PDF, audiobooks. 
+- Limited support for comics.
+- Only Yandex Disk is supported as Cloud Storage (iCloud, Dropbox, Google Drive, OneDisk, WebDav, Samba will be added in the future betas).
+- No synchronization.
+- No search in the Cataloguer and on the Internet.
+- No support for third-party book services.
+- No OPDS catalogs and Tor Network.
+- No text-to-speech, autoscrolling, rapid reading, a text translation, dictionaries, summaries.
+- No section for working with notes and summaries.
+- No user interface for adding custom fonts, backgrounds and styles (the functions itself are already there but no interface to it yet).
 
-### Перспективы.
+### Future and outlook.
 
-К сожалению, мы вынуждены начать открытое тестирование очень сырой альфа версии третьего KyBook. Причина весьма банальна: отсутствие средств и возможностей для завершения разработки KyBook 3.
-Начав тестирование так рано, мы надеемся привлечь внимание и получить помощь от неравнодушных лиц.
+Unfortunately, we are forced to begin an open testing of the very raw alpha version of the third KyBook. The reason is very trivial: lack of  resources to finish the development of the KyBook 3.
+Start testing as early, we hope to attract attention and get help from those who are not indifferent.
 
-> Вам возможно уже известно что произошло, но продублирую ниже:
-> **В ночь с 5 на 6 февраля у нас произошел пожар**. 
-> Сгорело всё, квартира, документы, телефоны, компьютеры, ipad-ы и iphone-ы. Мы выбежали из дома на мороз ночью в одном белье. 
-> Спасти успели два системных блока (1 hackintosh для разработки и 1 freebsd сервер), один iPhone 5s и iPad Air. 
-> Исходный код всех версий KyBook, BiLibre, компонентов, backend-а был забэкаплен в облаке. 
-> За неделю мы востановили доступ к нашим данным в облаках, получили от друзей немного техники, смогли заново развернуть среду разработки, собрать альфу версию KyBook 3 и загрузить её в TestFlight. 
-> Но на продолжение разработки у нас сейчас нет возможностей и средств.
+> You may already know what happened, but I'll duplicate it below:
+> **On the night of 5 to 6 February we had a fire**. 
+> Burned everything, apartment, documents, telephones, computers, ipads and iphones. We ran out of the house to frost at night in one linen. 
+> We were able to rescue just two computer cases (one Mac for development and one FreeBSD server), one iPhone 5s and iPad Air. 
+> We have a backup of all source code of all KyBook versions, BiLibre, all components, and the backend in the Cloud. 
+> During this week, we restored access to our data in the Cloud, got a few computer devices from our friends, and had been finished re-deploy the development environment, built the apha version of KyBook 3 and upload KyBook 3 into TestFlight. 
+> Unfortunately, for continuing development, we do not have anymore opportunities and resources.
 
-По нашим предварительным подсчетам, для завершения разработки, нам необходимо время около трех-четырех месяцев и денежные средств от $10k до $20k. 
+According to our preliminary estimates, to complete the development, we need time for about three to four months and cash for $10k to $20k. 
 
-### Исходя из вышесказанного, возможны следующие варианты дальнейшего развития. 
+### Based on the foregoing, the following options are possible: 
 
-- Мы открыты к любым предложениям о сотрудничестве для доработки третьго KyBook. Возможны различные варианты, если у Вас есть какие либо идеи - предлагайте.
+- We are open to any proposals for cooperation to finalize the third KyBook.  if you have any ideas - please offer.
 
-- Мы готовы рассмотреть продажу первого KyBook c трансфертом приложения в iTunes Connect с передачей всех прав и исходных кодов. (Второй KyBook не может быть передан из-за ограничений Apple для приложений использующих iCloud, но продажа исходного кода возможна).
+- We are ready to consider the sale of the first KyBook with transfer app in iTunes Connect on an another account with all rights and source code. The KyBook 2 can not be transferred because of Apple's limitations for applications using iCloud, but we still can sale of KyBook 2 source code).
 
-- И как запасной вариант, мы открыты для предложений по удаленной разработке, у нас очень большая экспертиза в разработке мобильных приложений под iOS.
+- And as a fallback option, we are open to suggestions for remote development, we have a vast expertise in the development of mobile applications for iOS.
 
+We would be very grateful for any possible help. We have a shortage of absolutely everything, there is no money, no computer equipments. If you can, please improve your KyBook to Pro or tap on the ad banner in the app. Unfortunately, any additional funds that we can receive from the sales in the App Store, we will receive only via two months (Apple pays money to developers with a significant delay). Maybe you can help us with devices, some old MacBook, obsolete iMac, iPad, etc. And of course [**we would be greatly helped by your donation**](#For-donations).  
 
-Мы были бы очень сильно благодарны за любую возможную помощь. У нас нехватка абсолютно всего, нет ни денег, ни техники. Если можете, то улучшите пожалуйста Ваш KyBook до Про или тапните на рекламный блок в приложении. К сожалению, любые дополнительные средства который мы сможет получить от продаж в Apple Store, мы увидим только через два месяца (Apple выплачивает деньги разработчикам с существенной задержкой). Может быть у Вас есть возможность помочь нам ненужной Вам более техникой (старый MacBook, iMac, iPad, etc). И разумеется [**нам бы очень сильно помогла Ваша прямая денежная помощь**](#Для-пожертвований).  
+## References.
+- [Screenshots KyBook 3 alpha](/kybook3/alphashots.html)
+- [Sign in for testing KyBook 3](/beta.html)
+- Email to [admin@kybook-reader.com](mailto:admin@kybook-reader.com) for any cooperation suggestions.
+- Reference to [videos and photos from the fire accident](/firefatal.html)
 
-## Ссылки.
-- [Снимки экрана альфы KyBook 3](/kybook3/alphashots.html)
-- [Подать заявку для бета тестирования KyBook 3](/beta.html)
-- Пишите на [admin@kybook-reader.com](mailto:admin@kybook-reader.com) для предложений по сотрудничеству
-- Ссылка на [видео/фото с пожара](/firefatal.html)
-
-## Для пожертвований.
+## For donations.
 - [Yandex Money](https://money.yandex.ru/to/4100177382132) 
 - [PayPal](https://www.paypal.me/KonstantinBukreev) 
 
-**С уважением, Комманда KyBook.**
+**Best regards, KyBook Team**
 
 {% include footer-kybook3-announcament.html %}
