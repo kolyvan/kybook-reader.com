@@ -1,0 +1,45 @@
+---
+layout: main-ru
+title: KyBook 2|Помощь
+---
+
+<div class="jumbotron">
+  <h1>KyBook 2 Помощь</h1>
+  <p class="lead">Пожалуйста, прочтите FAQ прежде чем сообщить о проблеме</p>  
+</div>
+
+<div class="page-header">
+  <h3>FAQ</h3>
+</div>
+
+<div class="row">
+<div class="col-lg-6">
+
+  {% for post in site.categories.v2_faq %}
+  {% if post.categories contains 'ru' %}
+      <p> <a href="{{ post.url }}">{{ post.title }}</a> </p>
+  {% endif %}
+  {% endfor %}
+
+</div>
+</div>
+
+<br />
+
+<div class="page-header">
+<h3>Сообщить о проблеме</h3>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+  var disqus_url = "http://kybook-reader.com/{{page.url}}";
+</script>
+
+<div id="disqus_thread">
+</div>
+
+<script type="text/javascript" src="http://disqus.com/forums/kolyvan/embed.js">
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="KyBook Reader for iOS">
+<meta name="keywords" content="kybook, ebook, reader, ios">
+
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+<!-- <link href="/css/bootstrap-theme.min.css" rel="stylesheet"> -->
+<link href="/css/kybook.css" rel="stylesheet">
+
+<title>{{ page.title }}</title>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="header clearfix">
+<h3 class="text-muted pull-left">KyBook</h3>
+
+<nav>
+<ul class="nav nav-tabs pull-right">
+
+{% if page.url == '/' %}
+<li role="presentation" class="active"><a href="/index.html">Main</a></li>
+{% else %}
+<li role="presentation"><a href="/index.html">Main</a></li>
+{% endif %}
+
+{% if page.url == '/help.html' %}
+<li role="presentation" class="active"><a href="/help.html">Help</a></li>
+{% else %}
+<li role="presentation"><a href="/help.html">Help</a></li>
+{% endif %}
+
+{% if page.url == '/beta.html' %}
+<li role="presentation" class="active"><a href="/beta.html">Beta</a></li>
+{% else %}
+<li role="presentation"><a href="/beta.html">Beta</a></li>
+{% endif %}
+
+{% if page.url == '/donate.html' %}
+<li role="presentation" class="active"><a href="/donate.html">Donate</a></li>
+{% else %}
+<li role="presentation"><a href="/donate.html">Donate</a></li>
+{% endif %}
+
+{% if page.url == '/login.html' %}
+<li role="presentation" class="active"><a href="/login.html">Login</a></li>
+{% else %}
+<li role="presentation"><a href="/login.html">Login</a></li>
+{% endif %}
+
+</ul>
+
+<ul class="nav pull-left">
+{% if page.url == '/' %}
+<li ><a href="/ru/index.html">🇬🇧</a></li>
+{% elsif page.url == '/help.html' %}
+<li ><a href="/ru/help.html">🇬🇧</a></li>
+{% elsif page.url == '/beta.html' %}
+<li ><a href="/ru/beta.html">🇬🇧</a></li>
+{% elsif page.url == '/donate.html' %}
+<li ><a href="/ru/donate.html">🇬🇧</a></li>
+{% elsif page.url == '/login.html' %}
+<li ><a href="/ru/login.html">🇬🇧</a></li>
+{% endif %}
+</ul>
+
+</nav>
+</div>
+
+{{ content }}
+
+<footer class="footer">
+<p class="text-muted">Copyright &copy; 2018 Konstantin Bukreev &middot;
+  Created by <a href='http://github.com/kolyvan' target='_blank'>Kolyvan</a> &middot;
+  Hosted by <a href='http://github.com/' target='_blank'>GitHub</a>
+        and powered by <a href='http://github.com/mojombo/jekyll'>Jekyll</a>.
+</p>
+</footer>
+
+</div> <!-- /container -->
+
+{% comment %}
+<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  -->
+{% endcomment %}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+</body>
+</html>

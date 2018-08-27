@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="KyBook Читалка для iOS">
+<meta name="keywords" content="kybook, ebook, reader, ios">
+
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+<!-- <link href="/css/bootstrap-theme.min.css" rel="stylesheet"> -->
+<link href="/css/kybook.css" rel="stylesheet">
+
+<title>{{ page.title }}</title>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="header clearfix">
+<h3 class="text-muted pull-left">KyBook</h3>
+
+<nav>
+<ul class="nav nav-tabs pull-right">
+
+{% if page.url == '/ru/' %}
+<li role="presentation" class="active"><a href="/ru/index.html">Главная</a></li>
+{% else %}
+<li role="presentation"><a href="/ru/index.html">Главная</a></li>
+{% endif %}
+
+{% if page.url == '/ru/help.html' %}
+<li role="presentation" class="active"><a href="/ru/help.html">Помощь</a></li>
+{% else %}
+<li role="presentation"><a href="/ru/help.html">Помощь</a></li>
+{% endif %}
+
+{% if page.url == '/ru/beta.html' %}
+<li role="presentation" class="active"><a href="/ru/beta.html">Бета</a></li>
+{% else %}
+<li role="presentation"><a href="/ru/beta.html">Бета</a></li>
+{% endif %}
+
+{% if page.url == '/ru/donate.html' %}
+<li role="presentation" class="active"><a href="/ru/donate.html">Donate</a></li>
+{% else %}
+<li role="presentation"><a href="/ru/donate.html">Donate</a></li>
+{% endif %}
+
+{% if page.url == '/ru/login.html' %}
+<li role="presentation" class="active"><a href="/ru/login.html">Войти</a></li>
+{% else %}
+<li role="presentation"><a href="/ru/login.html">Войти</a></li>
+{% endif %}
+
+</ul>
+
+<ul class="nav pull-left">
+{% if page.url == '/ru/' %}
+<li ><a href="/index.html">🇷🇺</a></li>
+{% elsif page.url == '/ru/help.html' %}
+<li ><a href="/help.html">🇷🇺</a></li>
+{% elsif page.url == '/ru/beta.html' %}
+<li ><a href="/beta.html">🇷🇺</a></li>
+{% elsif page.url == '/ru/donate.html' %}
+<li ><a href="/donate.html">🇷🇺</a></li>
+{% elsif page.url == '/ru/login.html' %}
+<li ><a href="/login.html">🇷🇺</a></li>
+{% endif %}
+</ul>
+
+</nav>
+</div>
+
+{{ content }}
+
+<footer class="footer">
+<p class="text-muted">Copyright &copy; 2018 Konstantin Bukreev &middot;
+  Created by <a href='http://github.com/kolyvan' target='_blank'>Kolyvan</a> &middot;
+  Hosted by <a href='http://github.com/' target='_blank'>GitHub</a>
+        and powered by <a href='http://github.com/mojombo/jekyll'>Jekyll</a>.
+</p>
+</footer>
+
+</div> <!-- /container -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+</body>
+</html>

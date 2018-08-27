@@ -1,41 +1,34 @@
 ---
-layout: kybook-ru
-title: KyBook - Помощь
+layout: main-ru
+title: KyBook|Помощь
 ---
 
 <div class="jumbotron">
   <h1>Помощь</h1>
-  <p class="lead">Пожалуйста, прочтите FAQ прежде чем сообщить о проблеме</p>
-  <p><a href="mailto:%73%&#55;&#53;p&#112;o&#114;%74&#37;40%6&#66;%79b&#37;&#54;Fok%2&#68reader%2Ecom" class="btn btn-primary btn-lg" role="button"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>  Написать нам</a></p>
+  <p class="lead">Добро пожаловать на форум KyBook!</p>
+  <p class="lead">Пожалуйста, прочтите FAQ, перед тем как сообщать о проблеме</p>
+  <p><a class="btn btn-lg btn-warning" role="button" href="https://github.com/kolyvan/kybook/issues/new">Сообщить о проблеме</a></p>
 </div>
 
 <div class="page-header">
-  <h3>FAQ</h3>
-</div>
+  <h3>FAQ</h3>    
+  <div class="row col-lg-12"">    
+    {% for post in site.categories.faq %}
+    {% unless post.categories contains 'ru' %}
+        <p> <a href="{{ post.url }}">{{ post.title }}</a> </p>
+    {% endunless %}
+    {% endfor %}    
+  </div>
+</div>  
 
-<div class="row">
-<div class="col-lg-6">
-
-  {% for post in site.categories.faq %}
-  {% if post.categories contains 'ru' %}
-    <p> <a href="{{ post.url }}">{{ post.title }}</a> </p>
-  {% endif %}
-  {% endfor %}
-
-</div>
+<div class="page-header alert alert-warning">
+  Уважаемые пользователи KyBook 1/2, пожалуйста, посетите <a href="http://kolyvan.com/kybook/support.html">KyBook 1 Помощь</a> или <a href="/ru/v2_help.html">KyBook 2 Помощь</a> страницу для информации.
 </div>
 
 <br />
-<!-- https://tech.yandex.ru/share/ -->
-<script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8" async="async"></script>
-<div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,digg,reddit,linkedin,lj" data-size="s" data-counter></div>
-
-<div class="page-header">
-<h3>Сообщить о проблеме</h3>
-</div>
 
 <script type="text/javascript" charset="utf-8">
-  var disqus_url = "http://kybook-reader.com{{page.url}}";
+  var disqus_url = "http://kybook-reader.com/v3{{page.url}}";
 </script>
 
 <div id="disqus_thread">
