@@ -1,0 +1,48 @@
+---
+layout: main_post
+title: Migration from KyBook 2
+media:
+  - kybook2-migration-1.png
+  - kybook2-migration-2.png
+  - kybook2-migration-3.png
+  - kybook2-migration-4.png
+  - kybook2-migration-5.png
+---
+
+<div>
+    
+<h2>How to migrate to KyBook 3 from KyBook 2.</h2>
+
+<h3>Requirements.</h3>
+    
+<p>At first make sure what you have the most recent versions of KyBook applications. If your KyBook applications are outdated, please update them from the App Store.</p> 
+    
+<p>The minimum versions of KyBooks are:</p>
+<ul>
+    <li>KyBook 3 must be at least <strong>v0.5.2</strong></li>
+    <li>KyBook 2 must be at least <strong>v1.2.4</strong></li>
+</ul>
+<p>To check your application version, please open <code>Control/About</code> screen in KyBook 3 or <code>Support</code> screen in KyBook 2.</p>
+    
+<h3>Main.</h3>
+    
+<p>To start migration launch KyBook 2, go to <code>Support</code> screen, tap on the <code>Copy books to KyBook 3</code>. The application will calculate required disk space and ask to confirm migration. At your confirmation, KyBook 2 will copy the database and books from KyBook 2 into KyBook 3 and launch KyBook 3 for processing copied books. Processing books takes some time, so please be patient.</p> 
+    
+<p>Not all information can be transferred without loss, some notes may be a little displaced, not all ebook's metadata from KyBook 2 may be supported in KyBook 3. KyBook 2 and KyBook 3 are different application with different technology stack and handles ebooks in different ways, so some compatibility problems are unavoidable.</p>
+
+<h3>Important remarks about the Cloud Storage (Dropbox, Google Drive, etc).</h3> 
+    
+<p>During migration books located in the Cloud Storage, KyBook 3 will download them for processing. It will take disk space and time. The best, before migration, to link your Cloud Storage manually in KyBook 3 but it's optional since KyBook can automatically link Cloud Storage using credentials from KyBook 2.</p> 
+    
+<p>KyBook 3 can't migrate books from iCloud Drive due to inaccessible iCloud Drive <code>KyBook</code> folder. KyBook 3 used <code>KyBook 3</code> iCloud folder and has no access to former iCloud <code>KyBook</code> folder. For the same reasons KyBook 3 can't migrate books from <code>Yandex Disk App</code> Cloud Storage <em>(the common <code>Yandex Disk</code> Cloud Storage has no problem with migration)</em>.</p>
+    
+<p>To workaround the issue with migration from <code>iCloud Drive</code> and <code>Yandex Disk App</code> first manually copy your books from the Cloud Storage into any folder on the device. For that, open the <code>Files</code> screen, then open a Cloud Storage, select folders with your books (by long tap on a folder and tapping menu item <code>Select</code>) and then tap <code>Copy</code> button on the bottom bar. After copying books from a Cloud Storage - run migration as described above.</p>
+
+</div>
+
+<h3>Screenshots.</h3>
+<div class="media">
+{% for image in page.media %}
+<img class="mr-3" src="/assets/faq/{{ image }}">
+{% endfor %}
+</div>    

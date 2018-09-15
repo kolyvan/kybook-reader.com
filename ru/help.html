@@ -14,9 +14,9 @@ title: KyBook|Помощь
   <h3>FAQ</h3>    
   <div class="row col-lg-12"">    
     {% for post in site.categories.faq %}
-    {% unless post.categories contains 'ru' %}
+    {% if post.categories contains 'ru' %}
         <p> <a href="{{ post.url }}">{{ post.title }}</a> </p>
-    {% endunless %}
+    {% endif %}
     {% endfor %}    
   </div>
 </div>  
