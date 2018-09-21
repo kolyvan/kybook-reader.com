@@ -1,0 +1,10 @@
+---
+layout: main_post
+title: How to correct errors in KyBook 3's dialogues
+media:
+---
+<div>
+<h1>How can I correct errors in KyBook 3's dialogues?</h1>
+<p>You can edit the localization files for your locale <a href="https://github.com/kolyvan/kybook3-localization">here</a>.</p>
+</div>
+
