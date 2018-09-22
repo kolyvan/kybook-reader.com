@@ -2,8 +2,26 @@
 layout: main_post
 title: How to select multiple books
 media:
+  - select_multiple_books_1.png
+  - select_multiple_books_2.png
 ---
 <div>
-<p>Long press the <code>Select</code> menu item, then tap the books you wish to select.</p>
+<p>Tap <code>Select</code> menu item, then tap the books you wish to select.</p>
+
+<p>For appearing <code>Context</code> menu with <code>Select</code> item</p>
+<ul>
+<li>In Card layout - tap the book cover on the right side of the book cell.</li>
+<li>In Mini/Large Card layout - tap the <code>three dots</code> button.</li>
+<li>Or use the long press gesture on the book cell.</li>
+</ul>
+
 </div>
 
+<br />
+<h3>Screenshots.</h3>
+<div class="media">
+{% for image in page.media %}
+<img class="mr-3" src="/assets/faq/{{ image }}">
+{% endfor %}
+</div>    
+<br />
