@@ -1,0 +1,20 @@
+---
+layout: main_post
+title: How to search for a book in the iPad or Cataloguer bookshelves
+media:
+---
+<div>
+<h1>How do I search for a book in the iPad or Cataloguer bookshelves?</h1>
+<p>Crash data is sent automatically by Apple, <b>if you have enabled sharing analytics</b>.</p>
+
+To enable sharing analytics on iPad/iPhone iOS 11.3.1, in the Settings app:
+<ol>
+<li>Select the iPad bookshelf (or any of those under Cataloguer)</li>
+<li>In the middle of the screen, swipe downwards with one finger</li>
+<li>A search box appears</li>
+<li>Type in the <b>phrase</b> you wish to search for</li>
+<li>The phrase is searched for (insensitively) in the Title, Authors, and Subjects fields</li>
+
+<h3>Note that the search is for an exact string, not the individual words in the string.</h3>
+</ol>
+</div>
