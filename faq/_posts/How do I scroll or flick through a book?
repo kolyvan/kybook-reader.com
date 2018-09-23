@@ -1,0 +1,23 @@
+---
+layout: main_post
+title: How to scroll or flick through a book
+media:
+---
+<h3>How do I scroll or flick through a book?</h3>
+<div>
+<p>Whilst reading a book:
+<ol>
+<li>Tap the page counter at the bottom right of the page.</li>
+<li>A row of small dots appears with a much larger dot.</li>
+<li>The larger dot is your current position in the book.</li>
+<li>Tap the larger dot and drag it to change your position in the book.</li>
+<li>You will see the pages change or the message <code>Loading ...</code> as you drag.</li>
+</ol>
+</p>
+<p>Alternatively, if you have enabled the 'Curl' or 'Slide' page turn methods, you can just tap the left or right edge of the page to flick backwards or forwards, respectively.</p>
+<p>To change the page turn method, whilst reading a book:
+<ol>
+<li>Tap the <code>Preferences</code> icon at the top right of the page (it looks like three small sliders).</li>
+<li>Tap the page turn method you wish to enable.</li>
+</ol>
+</div>
