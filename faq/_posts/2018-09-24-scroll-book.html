@@ -2,7 +2,11 @@
 layout: main_post
 title: How to scroll or flick through a book
 media:
+    - scroll-book_1.png
+    - scroll-book_2.png
+    - scroll-book_3.png
 ---
+
 <h3>How do I scroll or flick through a book?</h3>
 <div>
 <p>Whilst reading a book:
@@ -21,3 +25,12 @@ media:
 <li>Tap the page turn method you wish to enable.</li>
 </ol>
 </div>
+
+<br />
+<h3>Screenshots.</h3>
+<div class="media">
+{% for image in page.media %}
+<img class="mr-3" src="/assets/faq/{{ image }}">
+{% endfor %}
+</div>    
+<br />
