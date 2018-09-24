@@ -1,0 +1,25 @@
+---
+layout: main_post
+title: The meaning and use of Collections in KyBook 3
+media:
+    - collections_1.png
+    - collections_2.png
+    - collections_3.png
+    - collections_4.png
+---
+<h3>What are Collections in KyBook 3 and how are they used?</h3>
+<div>
+<p>Collections are like Tags, but in addition to books, they can also include categories from the Cataloguer (such as subjects, authors, series), folders and even other collections.</p>
+<br>
+<p>Please note, that I am still unsure about the usefulness and future of Collections. The feature is very much experimental and I may remove it in the future.</p>
+<p>
+</div>
+
+<br />
+<h3>Screenshots.</h3>
+<div class="media">
+{% for image in page.media %}
+<img class="mr-3" src="/assets/faq/{{ image }}">
+{% endfor %}
+</div>    
+<br />
