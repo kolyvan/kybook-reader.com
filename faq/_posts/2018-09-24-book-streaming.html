@@ -2,13 +2,21 @@
 layout: main_post
 title: Streaming vs downloading a book from cloud storage
 media:
+  - book-streaming.png
 ---
 <h3>When opening a book from cloud storage such as Google Drive, does KyBook 3 stream or download the book to local storage?</h3>
 <div>
 <p>I should like to stream books directly from the cloud without downloading the whole library onto my phone.</p>
-<p>KyBook 3 currently only streams audio books from cloud storage.</p
+<p>KyBook 3 currently only streams audio books from cloud storage.</p>
 <p>It is <b>possible</b> that PDF and DjVu book formats will be streamable in a future release.</p>
+<p>User can toggle streaming for audio books on the KyBook <code>Control/Network</code> screen.</p>
 </div>
 
-
-
+<br />
+<h3>Screenshots.</h3>
+<div class="media">
+{% for image in page.media %}
+<img class="mr-3" src="/assets/faq/{{ image }}">
+{% endfor %}
+</div>    
+<br />
