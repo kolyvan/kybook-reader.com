@@ -1,0 +1,27 @@
+---
+layout: main_post
+title: How to limit book searches to author, title, etc
+media:
+- ****** Add the screenshot from here https://github.com/kolyvan/kybook/issues/43 *******
+---
+<div>
+<p>First go to <code>Control/Bookshelf</code>screen <em>(on the iPhone look under <code>More</code> tab)</em> and toggle on the <code>Advanced interface</code> switch.</p>
+<p>After that:</p>
+<ol>
+<li>Tap the <code>Search</code> icon on the <code>Library</code> (home) screen</li>
+<li>Tap the <code>Preferences</code> icon in the top right-hand corner (looks like three small sliders)</li>
+<li>Select or deselect your match criteria</li>
+<li>Type in the text you wish to search for.</li>
+</ol>
+<p>Note that the search is case insensitive.</p>
+<p>Remember that you can also sort books by their metadata in bookshelves and view books categorized by their metadata in the <code>Cataloguer</code> screen.
+</div>
+
+<br />
+<h3>Screenshots.</h3>
+<div class="media">
+{% for image in page.media %}
+<img class="mr-3" src="/assets/faq/{{ image }}">
+{% endfor %}
+</div>    
+<br />
