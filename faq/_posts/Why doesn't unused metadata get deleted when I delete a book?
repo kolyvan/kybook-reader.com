@@ -1,0 +1,26 @@
+---
+layout: main_post
+title: Unused metadata doesn't get deleted when I delete a book.
+media:
+  - ******* Add screenshot from here https://github.com/kolyvan/kybook/issues/40 *******
+---
+<div>
+<h3>I deleted a book, but its subject (or author, etc.) remains in KyBook 3 even though no other book is using it.</h3>
+<p>Because metadata entries can be added manually by the user as well as automatically by KyBook 3, there is no way of telling what the user's intentions are for unused items.</p>
+<p>For this reason, there is an option to delete an unused item in the <code>Cataloguer</code> screens. For example, to delete an unused subject:</p>
+<ol>
+<li>Tap the <code>Cataloguer</code> icon on the <code>Library</code> (home) screen</li>
+<li>Tap <code>Subjects</code></li>
+<li>Tap the <code>Command</code> icon at the top right of the screen</li>
+<li>Tap <code>Delete empty</code></li>
+</ol>
+</div>
+
+<br />
+<h3>Screenshots.</h3>
+<div class="media">
+{% for image in page.media %}
+<img class="mr-3" src="/assets/faq/{{ image }}">
+{% endfor %}
+</div>    
+<br />
