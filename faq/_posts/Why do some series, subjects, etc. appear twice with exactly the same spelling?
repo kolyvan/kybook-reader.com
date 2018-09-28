@@ -1,0 +1,19 @@
+---
+layout: main_post
+title: Some series, subjects, etc. appear twice with exactly the same spelling.
+media:
+---
+<div>
+<h3>Why do some series, subjects, etc. appear twice with exactly the same spelling?</h3>
+<p>After migrating from KyBook 2 or importing books from various sources, you may find that some series, subjects, etc. <em>appear</em> to be duplicated.</p>
+<p>This is most likely caused by the Unicode encoding, whereby the glyphs (characters) look the same to humans, but have different encodings (meanings to KyBook 3).</p>
+<p>The problem can be solved by:</p>
+<ol>
+<li>excluding the affected books from their current series, subjects, etc.</li>
+<li>deleting the duplicated series, subjects, etc.</li>
+<li>creating the series, subjects, etc. anew</li>
+<li>adding the books to the newly created series, subjects, etc.</li>
+</ol>
+<p>You may find the catagories in the Cataloguer useful for filtering the books by series, subjects, etc.
+</div>
+<br />
