@@ -1,0 +1,19 @@
+---
+layout: main_post
+title: Text-to-speech (Speak) stops after one word, sentence, or paragraph
+media:
+---
+<div>
+<h3>After selecting a word, sentence, or paragraph and selecting <code>Speak</code>, why does it not keep reading?</h3>
+<p>This is by design, as <code>Speak</code> is most commonly used to hear the pronunciation of a single word or sentence.</p>
+<p>To enable text-to-speech to run continously:</p>
+<ol>
+<li>Tap the <code>Control</code> icon (looks like a gear wheel)</li>
+<li>Scroll down and tap <code>Speech Synthesis (text-to-speech)</code></li>
+<li>Toggle <code>Speak all</code> on</li>
+</ol>
+<p>Once started, speech will now continue until the end of the book or it is stopped by the user.</p>
+</div>
+
+<br />
+
