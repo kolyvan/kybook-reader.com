@@ -2,6 +2,7 @@
 layout: main_post
 title: Text-to-speech (Speak) stops after one word, sentence, or paragraph
 media:
+    - tts-settings.png
 ---
 <div>
 <h3>After selecting a word, sentence, or paragraph and selecting <code>Speak</code>, why does it not keep reading?</h3>
@@ -16,4 +17,10 @@ media:
 </div>
 
 <br />
-
+<h3>Screenshots.</h3>
+<div class="media">
+{% for image in page.media %}
+<img class="mr-3" src="/assets/faq/{{ image }}">
+{% endfor %}
+</div>    
+<br />
